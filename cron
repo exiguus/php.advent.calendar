@@ -1,0 +1,6 @@
+# Set PATH, otherwise restart-scripts won't find start-stop-daemon
+#
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+01 06 1-24 12 * root /usr/bin/php5 -q /path/to/doc/root/mail.php
+
