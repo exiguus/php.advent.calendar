@@ -21,3 +21,6 @@ To test the changed values you can set $today (at the beginning of config.php) t
 Open http://example.org/cal-path/ and test
 
 Change doc root in /cron and copy /cron to /etc/cron.d/advent (restart cron).
+
+##Third Part
+The calendar use impress.js from Bartek Szopka (http://bartaz.github.com/impress.js/)
